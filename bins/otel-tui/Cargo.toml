@@ -1,0 +1,17 @@
+[package]
+name = "otel-tui"
+version = "0.1.0"
+edition.workspace = true
+build = "build.rs"
+
+[dependencies]
+async-trait.workspace = true
+clap.workspace = true
+crossterm.workspace = true
+tokio.workspace = true
+tonic.workspace = true
+ratatui.workspace = true
+opentelemetry-proto.workspace = true
+
+[build-dependencies]
+built.workspace = true

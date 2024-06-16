@@ -1,0 +1,12 @@
+[package]
+name = "otel-mock"
+version = "0.1.0"
+edition.workspace = true
+
+[dependencies]
+opentelemetry-otlp.workspace = true
+opentelemetry_sdk.workspace = true
+tracing-opentelemetry.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+tokio.workspace = true
