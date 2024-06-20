@@ -8,10 +8,11 @@ build = "build.rs"
 async-trait.workspace = true
 clap.workspace = true
 crossterm.workspace = true
+opentelemetry-proto.workspace = true
+ratatui.workspace = true
+snafu.workspace = true
 tokio.workspace = true
 tonic.workspace = true
-ratatui.workspace = true
-opentelemetry-proto.workspace = true
 
 [build-dependencies]
 built.workspace = true
